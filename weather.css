@@ -1,0 +1,106 @@
+*,*::before,*::after{
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
+}
+.nav {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   background-color: rgb(8, 6, 3);
+   padding: 13px 8px;
+   color: white;
+}
+#img {
+   
+   width: 50px;
+}
+#heading {
+   margin-left: 14px;
+}
+#background {
+   text-align: center;
+   background-image: url('./images/bg2.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100vw;
+   height: 60vh;
+   color: rgb(0, 0, 0);
+   overflow: hidden;
+   border-bottom: 1px solid black;
+}
+#back-head {
+   margin-top: 72px;
+   font-size: 2rem;
+}
+#search-bar{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 6.5rem;
+   flex-direction: row;
+   
+}
+#input {
+   height: 2rem;
+   width: 25rem;
+   font-size: 2rem;
+   font-family: 'Times New Roman', Times, serif;
+   outline: none;
+   border: 1px solid black;
+}
+#button {
+   background-color: black;
+    color: white;
+    outline: none;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    height: 2.2rem;
+    width: 10.5rem;
+}
+#button:hover{
+   background-color: white;
+   color: black;
+   font-size: 1.7rem;
+   border: 2px solid black;
+}
+#grid-container{
+   background-image: url('./images/fg.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 2rem;
+   margin-right: 0px;
+   height: 50vw;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-row-gap:20px;
+   grid-column-gap:20px;
+   overflow-y: hidden;
+   color: black;
+   z-index: 3;
+
+}
+.grid-item {
+   box-shadow: 10px 10px black;
+   padding-top: 1.1rem;
+   text-align: center;
+   width: 25vw;
+   height: 30vh;
+   background-color:#b9b9b9;
+   z-index: 1;
+}
+.param-logo {
+   margin: auto;
+   height: 6rem;
+   border: 2px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#footer{
+   text-align: center;
+   font-size: 1.2rem;
+   background-color: black;
+   color: white;
+}
